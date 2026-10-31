@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/assets/images/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Conf</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="assets/images/logo-full.svg">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="CIT2011_IA_2_Instructions.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="form-data">
+            <label for="usr-img-avatar">Profile Image </label>
+            <input type="file" id="usr-img-avatar" accept="image/png, image/jpg"/><br />
+
+            <label for="usr-full-name">Full Name </label>
+            <input type="text" id="usr-full-name" placeholder="John Doe" required/><br />
+
+            <label for="usr-email">Email Address </label>
+            <input type="email" id="usr-email" placeholder="johndoe01@gmail.com" required/><br />
+
+            <label for="usr-github">Github Username </label>
+            <input type="text" id="usr-github" placeholder="johndoe01" required/><br />
+
+            <input type="submit" value="Register Now">
+        </form>
+    </main>
+    <footer>
+    <div id="foot-block">
+        <h3>Contact</h3>
+        <p>Telephone: 123-456-7890</p>
+        <p>Email: admin001@gmail.com</p>
+    </div>
+    </footer>
+    <script src="js/validation.js"></script>
+</body>
+</html>

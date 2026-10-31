@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/assets/images/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Conf</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="assets/images/logo-full.svg"/>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="CIT2011_IA_2_Instructions.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>
+        Congrats, <span class="grad-name" id="display-name">John Doe</span
+        ><br />Your Ticket is ready.
+      </h2>
+      <p class="subtitle">
+        We've emailed your ticket to
+        <span id="display-email">user@gmail.com</span> and will send updates in
+        the run up to he event.
+      </p>
+
+      <div class="ticket-card">
+        <img
+          class="ticket-bg"
+          src="assets/images/pattern-ticket.svg"
+        />
+
+        <img
+          class="img-bottom"
+          src="assets/images/pattern-circle.svg"
+          width="900"
+        />
+
+        <div class="ticket-content">
+          <div class="ticket-header">
+            <img
+              src="assets/images/logo-mark.svg"
+              class="ticket-logo"
+            />
+            <div>
+              <h3>Coding Conf</h3>
+              <p class="ticket-date">October 26, 2026 / Papine, Kgn</p>
+            </div>
+          </div>
+
+          <div class="ticket-user-section">
+            <img
+              id="display-avatar"
+              src="assets/images/image-avatar.jpg"
+              class="ticket-avatar"
+            />
+            <div>
+              <h4 id="display-fullname">Full Name</h4>
+              <p class="github-handle">
+                <img src="assets/images/icon-github.svg" alt="Github" />
+                <span id="display-github">@username</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="ticket-number"><span>#04815</span></div>
+      </div>
+    </main>
+    <script src="js/ticket.js"></script>
+  </body>
+</html>
