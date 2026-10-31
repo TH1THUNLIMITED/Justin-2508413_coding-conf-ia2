@@ -20,6 +20,7 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family:Inconsolata;
+    overflow-x: hidden;
 }
 
 footer {
@@ -214,7 +215,9 @@ input:focus {
     position: relative;
     width: 100%;
     max-width: 550px;
+    box-sizing: border-box;
     margin-top: 30px;
+    padding: 0 15px;
 }
 
 .ticket-bg {
@@ -320,6 +323,10 @@ input:focus {
             url("../assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg") left bottom / 30% no-repeat fixed,
             url("../assets/images/background-mobile.png") center / cover no-repeat fixed;
     }   
+    
+    .img-bottom {
+        display: none;
+    }
 
     main {
         margin: 10px; /* Reduces heavy side margins on small screens */
@@ -327,7 +334,7 @@ input:focus {
     }
 
     .ticket-content {
-        padding: 20px;
+        padding: 15px;
     }
 
     .ticket-header h3 {
